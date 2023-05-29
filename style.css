@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-image: url("Weater_background_pic.webp");
+  background-size: cover;
+  background-position: center;
+}
+.div1 img{
+  margin-top: 25px;
+  margin-left: 440px;
+  height: 90px;
+  width: 90px;
+}
+.div1 span
+{
+  display:inline-block;
+  font-size: 60px;
+  font-family: Garamond;
+  color:#9223fa
+}
+
+.app-wrap:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(85, 220, 193, 0.3),
+    rgba(251, 249, 249, 0.6)
+  );
+  transition-duration: 1s;
+}
+.app-wrap {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin-left: 400px;
+  flex-direction: column;
+ 
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+header input {
+  width: 100%;
+  margin-left: 15px;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(249, 246, 246, 0.4);
+  border-radius: 16px;
+  border-bottom: 3px solid #2e2ef6;
+
+  font-size: 20px;
+  font-weight: 350;
+  transition: 0.2s ease-out;
+  color: #9223fa;
+}
+header input:focus {
+  background-color: rgba(139, 250, 242, 0.8);
+}
+main {
+  flex: 1 1 100%;
+  margin-left: 20px;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Garamond;
+}
+.location .city {
+  color: #9223fa;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.location .date {
+  color: #9223fa;
+  font-size: 20px;
+}
+.current .temp {
+  color: #9223fa;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0;
+  text-shadow: 2px 8px rgba(40, 40, 40, 0.5);
+}
+.current .temp span {
+  font-weight: 200;
+}
+.current .weather {
+  color: #753daa;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+.current .hi-low {
+  color: #673b91;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+.div2
+{
+  text-align: center;
+  color:#9223fa;
+  font-weight:20px;
+}
+.div2:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #d2f490,
+    rgba(251, 249, 249, 0.6)
+  );
+  transition-duration: 1s;
+}
+.div3{
+  text-align: center;
+  font-weight: 20px;
+  color:#9223fa;
+  font-weight:20px;
+}
